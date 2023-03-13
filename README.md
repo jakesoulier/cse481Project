@@ -20,3 +20,7 @@
 ![store_facility_info](https://user-images.githubusercontent.com/97404870/224756567-a96f9a9d-1706-4e79-b984-05f9ddddda22.png)
 
 ![query_facility](https://user-images.githubusercontent.com/97404870/224756733-cfa6bf26-4e46-4c21-8559-5e73d4659985.png)
+
+### System requirements
+
+Add mock to rebar.config: {profiles, [{test, [{deps, [meck]}]}]}
