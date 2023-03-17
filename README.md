@@ -23,4 +23,7 @@
 
 ### System requirements
 
-Add mock to rebar.config: {profiles, [{test, [{deps, [meck]}]}]}
+Add mock to rebar.config: 
+```
+{profiles, [{test, [{deps, [meck]}]}]}
+```
